@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+
+/*construct 12-column grid responsive layout*/
+/*base style*/
+.row{
+	width: 100%;
+}
+/*large device*/
+@media (min-width: 992px){
+	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+		float: left;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	#c,#b{
+		margin-right: 8px;
+	}
+}
+/*medium device*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6,.col-md-12{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+	#c{
+		margin-right: 8px;
+		margin-bottom: 8px;
+	}
+}
+/*small device*/
+@media (max-width: 767px){
+	.col-sm-12{
+		float: left;
+	}
+	.col-sm-12{
+		width: 100%;
+	}
+	#c,#b{
+		margin-bottom: 8px;
+	}
+}
+
+body{
+	background-color: #f5e1c8;
+}
+h1{
+	text-align: center;
+	font-family: "Broadway", "Comic Sans MS", serif;
+	color: #c0732d;
+}
+
+/*style all the box model*/
+.box{
+	background-color: #f5e1c8;
+}
+h2{
+	position: relative;
+	left: 65.6%;
+	background-color: #c16529;
+	width: 35%;
+	text-align: center;
+	padding: 3px;
+	border: 3px solid #917861;
+	border-top: 0px;
+	margin: 0px;
+	color: whitesmoke;
+	font-style: italic;
+	font-family: "Times New Roman", "Comic Sans MS", serif;
+}
+.box2{
+	background-color: #e5c1ab;
+	border: 3px solid #917861;
+}
+p{
+	padding: 10px;
+	margin: 0px;
+	font-family: "Comic Sans MS", serif;
+}
