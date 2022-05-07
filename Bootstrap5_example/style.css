@@ -1,0 +1,12 @@
+@media (min-width: 768px){
+	.news-input{
+		width: 50%;
+	}
+}
+
+/*在body段前面加一个伪元素，以免navbar挡住一部分横幅*/
+body::before{
+	display: block;
+	content: "";
+	height: 56px;
+}
