@@ -20,7 +20,7 @@
 	}
 }
 /*medium device*/
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991.9px){
 	.col-md-6,.col-md-12{
 		float: left;
 	}
@@ -36,7 +36,7 @@
 	}
 }
 /*small device*/
-@media (max-width: 767px){
+@media (max-width: 767.9px){
 	.col-sm-12{
 		float: left;
 	}
@@ -63,12 +63,12 @@ h1{
 }
 h2{
 	position: relative;
-	left: 65.6%;
+	left: 65.1%;
 	background-color: #c16529;
 	width: 35%;
 	text-align: center;
 	padding: 3px;
-	border: 3px solid #917861;
+	border: 1px solid black;
 	border-top: 0px;
 	margin: 0px;
 	color: whitesmoke;
@@ -77,7 +77,10 @@ h2{
 }
 .box2{
 	background-color: #e5c1ab;
-	border: 3px solid #917861;
+	border: 1px solid black;
+	height: 160px;
+	overflow: hidden;
+
 }
 p{
 	padding: 10px;
